@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1786,6 +1786,305 @@ type 0207, grid 10 mm</description>
 <text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="SW_B3F-10XX">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
+<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.254" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-0.762" x2="3.048" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="0.762" x2="-3.048" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="1.27" y2="3.048" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="-1.27" y2="-2.794" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="1.143" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="-2.794" x2="-1.27" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-3.048" x2="-1.27" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="3.048" x2="-1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-3.048" x2="1.143" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-0.762" x2="3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.159" x2="1.27" y2="-2.159" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="2.286" x2="-1.27" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.508" x2="-2.159" y2="-0.381" width="0.1524" layer="51"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016"/>
+<text x="-3.048" y="3.683" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.318" y="1.651" size="1.27" layer="51" ratio="10">1</text>
+<text x="3.556" y="1.524" size="1.27" layer="51" ratio="10">2</text>
+<text x="-4.572" y="-2.794" size="1.27" layer="51" ratio="10">3</text>
+<text x="3.556" y="-2.794" size="1.27" layer="51" ratio="10">4</text>
+</package>
+<package name="SW_EVQP0">
+<smd name="P$3" x="-3.46" y="2.02" dx="1" dy="3.2" layer="1" rot="R90"/>
+<smd name="P$1" x="-3.46" y="-1.98" dx="1" dy="3.2" layer="1" rot="R90"/>
+<smd name="P$2" x="3.34" y="-1.98" dx="1" dy="3.2" layer="1" rot="R90"/>
+<smd name="P$4" x="3.34" y="2.02" dx="1" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-3.46" y1="3.02" x2="3.34" y2="3.02" width="0.127" layer="21"/>
+<wire x1="3.34" y1="-2.98" x2="-3.46" y2="-2.98" width="0.127" layer="21"/>
+<wire x1="-3.46" y1="1.02" x2="-3.46" y2="-0.98" width="0.127" layer="21"/>
+<wire x1="3.34" y1="1.02" x2="3.34" y2="-0.98" width="0.127" layer="21"/>
+<text x="-4" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_RS197">
+<smd name="P$T1A" x="-1.4" y="2.3" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$T2A" x="1.4" y="2.3" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$T2B" x="1.4" y="-2.3" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$T1B" x="-1.4" y="-2.3" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-2.2" y1="2.2" x2="-2.4" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="2.2" x2="-2.4" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-2.2" x2="-2.2" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-2.2" x2="2.4" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2.2" x2="2.4" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="2.2" x2="2.2" y2="2.2" width="0.127" layer="21"/>
+</package>
+<package name="SW_TACT_L">
+<description>12mm sq., OMRON B3F-14 etc.</description>
+<pad name="P$1" x="-2.54" y="-6.35" drill="1"/>
+<pad name="P$2" x="-2.54" y="6.35" drill="1"/>
+<pad name="P$3" x="2.54" y="6.35" drill="1"/>
+<pad name="P$4" x="2.54" y="-6.35" drill="1"/>
+<wire x1="3.81" y1="6.35" x2="6.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="6.35" x2="-6.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="6.35" x2="-6.35" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-3.81" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.016090625" width="0.127" layer="21"/>
+<hole x="-4.5" y="0" drill="2"/>
+<hole x="4.5" y="0" drill="2"/>
+<text x="-6.35" y="7.62" size="1.9304" layer="25">&gt;NAME</text>
+</package>
+<package name="SW_B3FS">
+<smd name="P$1" x="4" y="-2.25" dx="1.4" dy="1.6" layer="1"/>
+<smd name="P$2" x="-4" y="-2.25" dx="1.4" dy="1.6" layer="1"/>
+<smd name="P$3" x="4" y="2.25" dx="1.4" dy="1.6" layer="1"/>
+<smd name="P$4" x="-4" y="2.25" dx="1.4" dy="1.6" layer="1"/>
+<wire x1="-3" y1="3.25" x2="3" y2="3.25" width="0.127" layer="21"/>
+<wire x1="3" y1="3.25" x2="3" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3" y1="-3.25" x2="-3" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3.25" x2="-3" y2="3.25" width="0.127" layer="21"/>
+</package>
+<package name="SW_5ES">
+<smd name="P$1" x="-6.25" y="-3.75" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$2" x="6.25" y="-3.75" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$3" x="6.25" y="3.75" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$4" x="-6.25" y="3.75" dx="2.5" dy="1.2" layer="1"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+</package>
+<package name="SW_EVQP3">
+<description>Panasonic EVQP3</description>
+<smd name="P$2A" x="-2" y="-1" dx="1.1" dy="1.7" layer="1" rot="R90"/>
+<smd name="P$2B" x="2" y="-1" dx="1.1" dy="1.7" layer="1" rot="R90"/>
+<pad name="P$1A" x="-2" y="1" drill="0.6" shape="square"/>
+<pad name="P$1B" x="2" y="1" drill="0.6" shape="square"/>
+<wire x1="-3" y1="2" x2="-1" y2="2" width="0.127" layer="21"/>
+<wire x1="-1" y1="2" x2="1" y2="2" width="0.127" layer="21"/>
+<wire x1="1" y1="2" x2="3" y2="2" width="0.127" layer="21"/>
+<wire x1="3" y1="2" x2="3" y2="-2" width="0.127" layer="21"/>
+<wire x1="3" y1="-2" x2="-3" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1" y1="2" x2="-1" y2="3" width="0.127" layer="21"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.127" layer="21"/>
+<wire x1="1" y1="3" x2="1" y2="2" width="0.127" layer="21"/>
+</package>
+<package name="SW_KT11B0JM34LFS">
+<smd name="P$1" x="-2.6" y="2" dx="3.175" dy="1.59" layer="1"/>
+<smd name="P$2" x="2.6" y="2" dx="3.175" dy="1.59" layer="1"/>
+<smd name="P$3" x="2.6" y="-2" dx="3.175" dy="1.59" layer="1"/>
+<smd name="P$4" x="-2.6" y="-2" dx="3.175" dy="1.59" layer="1"/>
+<wire x1="3.2" y1="1" x2="3.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="1" x2="-3.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="3" x2="-3.2" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="3.3" x2="3.2" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.2" y1="3.3" x2="3.2" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="3.2" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-3.3" x2="3.2" y2="-3" width="0.127" layer="21"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_KSEM31JLFS">
+<smd name="P$1" x="-2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="P$2" x="2.9" y="2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="P$3" x="2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<smd name="P$4" x="-2.9" y="-2" dx="1" dy="2.8" layer="1" rot="R90"/>
+<wire x1="-3.1" y1="2.8" x2="-3.1" y2="3.2" width="0.127" layer="25"/>
+<wire x1="-3.1" y1="3.2" x2="3.1" y2="3.2" width="0.127" layer="25"/>
+<wire x1="3.1" y1="3.2" x2="3.1" y2="2.8" width="0.127" layer="25"/>
+<wire x1="-3.1" y1="-2.8" x2="-3.1" y2="-3.2" width="0.127" layer="25"/>
+<wire x1="-3.1" y1="-3.2" x2="3.1" y2="-3.2" width="0.127" layer="25"/>
+<wire x1="3.1" y1="-3.2" x2="3.1" y2="-2.8" width="0.127" layer="25"/>
+<wire x1="-3.1" y1="1.3" x2="-3.1" y2="-1.2" width="0.127" layer="25"/>
+<wire x1="3.1" y1="1.3" x2="3.1" y2="-1.2" width="0.127" layer="25"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQP0_NARROW">
+<smd name="P$3" x="-3.4" y="2" dx="1" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$1" x="-3.4" y="-2" dx="1" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$2" x="3.4" y="-2" dx="1" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$4" x="3.4" y="2" dx="1" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-3.25" y1="3" x2="3.25" y2="3" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-3" x2="-3.25" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="1" x2="-3.25" y2="-1" width="0.127" layer="21"/>
+<wire x1="3.25" y1="1" x2="3.25" y2="-1" width="0.127" layer="21"/>
+<text x="-4" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_TVAF17">
+<description>TVAF17, available at Akizuki</description>
+<smd name="P$1" x="-1.875" y="1" dx="0.7" dy="1.25" layer="1" rot="R90"/>
+<smd name="P$2" x="1.875" y="1" dx="0.7" dy="1.25" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.875" y="-1" dx="0.7" dy="1.25" layer="1" rot="R90"/>
+<smd name="P$4" x="1.875" y="-1" dx="0.7" dy="1.25" layer="1" rot="R90"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0.5" x2="1.55" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-0.5" x2="-1.55" y2="0.5" width="0.127" layer="21"/>
+<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQP2">
+<description>Panasonic EVQP2 series</description>
+<smd name="PA1" x="-2.575" y="0.85" dx="1.45" dy="1" layer="1"/>
+<smd name="PA2" x="2.575" y="0.85" dx="1.45" dy="1" layer="1"/>
+<smd name="PB1" x="-2.575" y="-0.85" dx="1.45" dy="1" layer="1"/>
+<smd name="PB2" x="2.575" y="-0.85" dx="1.45" dy="1" layer="1"/>
+<wire x1="-2.35" y1="1.75" x2="2.35" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.35" y1="-1.75" x2="-2.35" y2="-1.75" width="0.127" layer="21"/>
+<text x="-2.5" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_TSKA-2JL">
+<description>Akizuki's TSKA-2JL</description>
+<smd name="PA1" x="-2.2" y="1.85" dx="1" dy="0.6" layer="1"/>
+<smd name="PA2" x="2.2" y="1.85" dx="1" dy="0.6" layer="1"/>
+<smd name="PB1" x="-2.2" y="-1.85" dx="1" dy="0.6" layer="1"/>
+<smd name="PB2" x="2.2" y="-1.85" dx="1" dy="0.6" layer="1"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="1" width="0.127" layer="21"/>
+<text x="-2" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQPUA02">
+<description>Panasonic EVQPU</description>
+<smd name="PA1" x="-2.625" y="0.85" dx="1.55" dy="1" layer="1"/>
+<smd name="PA2" x="2.625" y="0.85" dx="1.55" dy="1" layer="1"/>
+<smd name="PB1" x="-2.625" y="-0.85" dx="1.55" dy="1" layer="1"/>
+<smd name="PB2" x="2.625" y="-0.85" dx="1.55" dy="1" layer="1"/>
+<wire x1="-2.35" y1="1.75" x2="2.35" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.35" y1="-1.75" x2="1.3" y2="-1.75" width="0.127" layer="21"/>
+<text x="-2.5" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="3" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.3" y1="-1.75" x2="-1.3" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.75" x2="-2.35" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.75" x2="-1.3" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2.75" x2="1.3" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-2.75" x2="1.3" y2="-1.75" width="0.127" layer="21"/>
+</package>
+<package name="SW_PTS525SK08">
+<description>C&amp;K's PTS525SK08 SMTR2</description>
+<smd name="P$A1" x="-3.2" y="1.9" dx="1.6" dy="1" layer="1"/>
+<smd name="P$A2" x="3.2" y="1.9" dx="1.6" dy="1" layer="1"/>
+<smd name="P$B1" x="-3.2" y="-1.9" dx="1.6" dy="1" layer="1"/>
+<smd name="P$B2" x="3.2" y="-1.9" dx="1.6" dy="1" layer="1"/>
+<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1" x2="-2.6" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1" x2="2.6" y2="-1" width="0.127" layer="21"/>
+<text x="-2" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQPLBA08">
+<description>Panasonic, EVQPLxBA08</description>
+<smd name="A1" x="-1.85" y="2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="A2" x="-1.85" y="-2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="B1" x="1.85" y="2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="B2" x="1.85" y="-2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="G1" x="2.525" y="0" dx="0.45" dy="1" layer="1"/>
+<smd name="G2" x="-2.525" y="0" dx="0.45" dy="1" layer="1"/>
+<wire x1="2.3" y1="2.3" x2="2.3" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.15" y1="2.3" x2="-1.15" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="2.3" x2="-2.3" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-0.75" x2="-2.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-2.3" x2="1.15" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-2.3" x2="2.3" y2="-0.75" width="0.127" layer="21"/>
+<text x="-2" y="3" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="-4" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQPLBA08_NOGND">
+<description>Panasonic's EQVQPLBA08, no GND terminal</description>
+<smd name="A1" x="-1.85" y="2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="A2" x="-1.85" y="-2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="B1" x="1.85" y="2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<smd name="B2" x="1.85" y="-2.2" dx="0.6" dy="1" layer="1" rot="R180"/>
+<wire x1="2.3" y1="2.3" x2="2.3" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.15" y1="2.3" x2="-1.15" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="2.3" x2="-2.3" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-0.75" x2="-2.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="-2.3" x2="1.15" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-2.3" x2="2.3" y2="-0.75" width="0.127" layer="21"/>
+<text x="-2" y="3" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="-4" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="SW_EVQP7">
+<description>Panasonic, EVQP7A/EVQP7J</description>
+<wire x1="-1.9" y1="1.5" x2="-0.9" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="1.5" x2="0.9" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.9" y1="1.5" x2="1.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-1.5" x2="-1.9" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="1.5" x2="-0.9" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="2.1" x2="0.9" y2="2.1" width="0.127" layer="21"/>
+<wire x1="0.9" y1="2.1" x2="0.9" y2="1.5" width="0.127" layer="21"/>
+<smd name="P$1A" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="P$1B" x="1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="P$2A" x="-1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="P$2B" x="1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
+<text x="-2.5" y="-3" size="1.016" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_PINHD6">
@@ -2059,6 +2358,27 @@ type 0207, grid 10 mm</description>
 <text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+</symbol>
+<symbol name="SW_TACT4P">
+<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<pin name="P" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="P1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="S1" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3041,6 +3361,217 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 </device>
 </devices>
 </deviceset>
+<deviceset name="SW_TACT" prefix="SW" uservalue="yes">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SW_TACT4P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TH" package="SW_B3F-10XX">
+<connects>
+<connect gate="1" pin="P" pad="3"/>
+<connect gate="1" pin="P1" pad="4"/>
+<connect gate="1" pin="S" pad="1"/>
+<connect gate="1" pin="S1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="B3F-1000" constant="no"/>
+<attribute name="OC_FARNELL" value="176432" constant="no"/>
+<attribute name="OC_NEWARK" value="36M3542" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD4" package="SW_EVQP0">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_S" package="SW_RS197">
+<connects>
+<connect gate="1" pin="P" pad="P$T1A"/>
+<connect gate="1" pin="P1" pad="P$T1B"/>
+<connect gate="1" pin="S" pad="P$T2A"/>
+<connect gate="1" pin="S1" pad="P$T2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TH_L" package="SW_TACT_L">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_B3FS" package="SW_B3FS">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_5ES" package="SW_5ES">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD4RA" package="SW_EVQP3">
+<connects>
+<connect gate="1" pin="P" pad="P$1A"/>
+<connect gate="1" pin="P1" pad="P$1B"/>
+<connect gate="1" pin="S" pad="P$2A"/>
+<connect gate="1" pin="S1" pad="P$2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_KT11B0" package="SW_KT11B0JM34LFS">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_KSE" package="SW_KSEM31JLFS">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQP0N" package="SW_EVQP0_NARROW">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TVAF17" package="SW_TVAF17">
+<connects>
+<connect gate="1" pin="P" pad="P$1"/>
+<connect gate="1" pin="P1" pad="P$2"/>
+<connect gate="1" pin="S" pad="P$3"/>
+<connect gate="1" pin="S1" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQP2" package="SW_EVQP2">
+<connects>
+<connect gate="1" pin="P" pad="PA1"/>
+<connect gate="1" pin="P1" pad="PA2"/>
+<connect gate="1" pin="S" pad="PB1"/>
+<connect gate="1" pin="S1" pad="PB2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TSKA2J" package="SW_TSKA-2JL">
+<connects>
+<connect gate="1" pin="P" pad="PA1"/>
+<connect gate="1" pin="P1" pad="PA2"/>
+<connect gate="1" pin="S" pad="PB1"/>
+<connect gate="1" pin="S1" pad="PB2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQPU02" package="SW_EVQPUA02">
+<connects>
+<connect gate="1" pin="P" pad="PA1"/>
+<connect gate="1" pin="P1" pad="PA2"/>
+<connect gate="1" pin="S" pad="PB1"/>
+<connect gate="1" pin="S1" pad="PB2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTS525SK08" package="SW_PTS525SK08">
+<connects>
+<connect gate="1" pin="P" pad="P$A1"/>
+<connect gate="1" pin="P1" pad="P$A2"/>
+<connect gate="1" pin="S" pad="P$B1"/>
+<connect gate="1" pin="S1" pad="P$B2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQPLBA08" package="SW_EVQPLBA08">
+<connects>
+<connect gate="1" pin="P" pad="A1"/>
+<connect gate="1" pin="P1" pad="A2"/>
+<connect gate="1" pin="S" pad="B1"/>
+<connect gate="1" pin="S1" pad="B2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQPLNA08NOGND" package="SW_EVQPLBA08_NOGND">
+<connects>
+<connect gate="1" pin="P" pad="A1"/>
+<connect gate="1" pin="P1" pad="A2"/>
+<connect gate="1" pin="S" pad="B1"/>
+<connect gate="1" pin="S1" pad="B2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EVQP7" package="SW_EVQP7">
+<connects>
+<connect gate="1" pin="P" pad="P$1A"/>
+<connect gate="1" pin="P1" pad="P$1B"/>
+<connect gate="1" pin="S" pad="P$2A"/>
+<connect gate="1" pin="S1" pad="P$2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3111,6 +3642,8 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <part name="X1" library="akita" deviceset="XTAL2" device="HC49US"/>
 <part name="P+11" library="akita" deviceset="POW_+5V" device=""/>
 <part name="+3V3" library="akita" deviceset="POW_+3V3" device=""/>
+<part name="SW1" library="akita" deviceset="SW_TACT" device="TH"/>
+<part name="GND14" library="akita" deviceset="POW_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3177,6 +3710,8 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <instance part="X1" gate="G$1" x="88.9" y="76.2"/>
 <instance part="P+11" gate="1" x="99.06" y="5.08"/>
 <instance part="+3V3" gate="G$1" x="101.6" y="5.08"/>
+<instance part="SW1" gate="1" x="144.78" y="-12.7" rot="R270"/>
+<instance part="GND14" gate="1" x="157.48" y="-20.32"/>
 </instances>
 <busses>
 </busses>
@@ -3569,6 +4104,15 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<pinref part="SW1" gate="1" pin="S1"/>
+<pinref part="SW1" gate="1" pin="S"/>
+<wire x1="149.86" y1="-15.24" x2="149.86" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-12.7" x2="157.48" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="149.86" y="-12.7"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="157.48" y1="-17.78" x2="157.48" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -3690,6 +4234,11 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <pinref part="CN5" gate="G$1" pin="RST"/>
 <wire x1="180.34" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 <label x="172.72" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SW1" gate="1" pin="P1"/>
+<label x="134.62" y="-15.24" size="1.778" layer="95"/>
+<wire x1="139.7" y1="-15.24" x2="134.62" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR" class="0">
