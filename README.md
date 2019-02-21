@@ -1,4 +1,4 @@
-# Meishino (ver 1.1)
+# Meishino (ver 1.2)
 
 ![基板外形](Meishino_v11.jpg)
 
@@ -16,7 +16,7 @@ Arduino UNO互換機と使えます。
 
 # 製造仕様
 
-ガーバーデータ（Meishino_v11_gerber.zip）を使います。
+ガーバーデータ（Meishino_v12_gerber.zip）を使います。
 
 挿入実装で使う場合(上記1.)は、板厚はいくつでもかまいませんが、名刺として使えるように薄くする(0.6mmなど)のがおすすめです。
 
@@ -27,7 +27,7 @@ Arduino UNO互換機と使えます。
 
 # 部品の調達と実装
 
-以下のいずれかを選んで、部品表(Meishino_v11_bom.csv)の部品を[秋月電子](http://akizukidenshi.com/)から購入し、部品をはんだ付けします。
+以下のいずれかを選んで、部品表(Meishino_v12_bom.csv)の部品を[秋月電子](http://akizukidenshi.com/)から購入し、部品をはんだ付けします。
 - 表面実装のIC(QFNパッケージ)をはんだ付けできる方：U3以外の部品を使用します
 - 表面実装のIC(QFNパッケージ)をはんだ付けできない：U1,C4,C5,R8以外の部品を使用します
 
